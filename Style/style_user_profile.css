@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: block;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-header h2 {
+    margin: 5px 0;
+}
+
+.profile-info {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.courses-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.courses-list li {
+    margin-bottom: 10px;
+}
+
+.courses-list li a {
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.courses-list li a:hover {
+    text-decoration: underline;
+}
+
+.course-container h4 {
+    margin-top: 0;
+    margin-bottom: 1vh;
+}
+
+.course-container a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.course-container a:hover {
+    text-decoration: underline;
+}
+
+.course-container {
+    max-width: 80vw;
+    text-align: center;
+    font-size: small;
+}
+
+.enrolled,
+.profile-info p {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logout-button{
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 10vw;
+    height: 5vh;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.student_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    justify-items: center;
+    text-align: center;
+    list-style: none;
+}
+
+.teacher_grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 20px; 
+    justify-items: center;
+    text-align: center;
+    list-style: none;
+}
+
+.course-container{
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 25vw;
+}
+h4{
+    margin: 0;
+
+}
+
+.logout{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
